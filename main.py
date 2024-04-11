@@ -63,7 +63,6 @@ def main_page():
         with live_pred.container():
             live_pred_title = f'Предсказание ключевой ставки по [последнему пресс-релизу ЦБ]({url}) от {date}'
             st.write(live_pred_title)
-            st.write(live_pred)
             st.write('Данный релиз говорит о том, что ' + formulation)
 
         if update_data():
