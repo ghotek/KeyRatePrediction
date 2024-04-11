@@ -1,0 +1,9 @@
+streamlit
+numpy
+pandas
+catboost
+plotly
+scikit-learn
+nltk
+pymorphy3
+beautifulsoup4
