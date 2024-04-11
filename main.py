@@ -21,7 +21,9 @@ def main_page():
     st.title('Анализ ключевой ставки по пресс-релизам ЦБ')
     live_graph = st.empty()
     live_pred  = st.empty()
-
+    
+    st.divider()
+    
     user_text = st.text_input('Введите текст пресс-релиза для анализа дальнейшей ставки')
     user_pred = st.button('Выдать прогноз')
 
