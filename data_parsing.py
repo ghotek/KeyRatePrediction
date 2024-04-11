@@ -79,7 +79,7 @@ def update_data(path='data/dataset.csv', url='https://www.cbr.ru/press/keypr/'):
     df2.loc[0, 'key_rate'] = actual_key_rate
     
     df = pd.concat([df2, df1], ignore_index=True)
-    df.to_csv(path)
+    df.to_csv(path, index=False)
     
     return 1
 
